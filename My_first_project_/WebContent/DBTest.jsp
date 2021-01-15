@@ -8,7 +8,7 @@
 	Boolean connect=false;
 	try{
 		Class.forName(driver);
-		conn = DriverManager.getConnection(url,"root","1111");
+		conn = DriverManager.getConnection(url,"root","admin");
 		connect=true;
 		conn.close();
 		System.out.println(conn.toString());
