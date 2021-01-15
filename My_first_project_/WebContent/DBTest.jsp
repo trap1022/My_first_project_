@@ -4,7 +4,7 @@
 <%
 	Connection conn=null;
 	String driver="com.mysql.jdbc.Driver";
-	String url="jdbc:mysql://localhost:3306/Covid?CharacterEncording=UTF-8&serverTimezone=UTC&useSSL=false";
+	String url="jdbc:mysql://localhost:3306/user_table?CharacterEncording=UTF-8&serverTimezone=UTC&useSSL=false";
 	Boolean connect=false;
 	try{
 		Class.forName(driver);
