@@ -17,6 +17,9 @@
 		e.printStackTrace();
 	}
 %>
+
+<%
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,5 +33,10 @@ if(connect==true)
 else
 	out.println("DB연결 실패");
 %>
+
+<form action="DBTestServlet" method="post">
+	<button type="submit">요청 전송</button>
+</form>
+
 </body>
 </html>
